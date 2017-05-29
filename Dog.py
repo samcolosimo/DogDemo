@@ -25,14 +25,11 @@ class Dog(object):
 
 	def printStatus(self):
 		if not self.isAlive:
-			print("Roll Credits")
+			print("Roll Credits, cause he ded")
 		elif self.height < 16:
 			print("Movie just started")
 		else:
 			print("Pupper is now",self.height,"inches tall")
-
-# x = randint(0,10)
-# print(x)
 
 
 # dogList = []
